@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image: url("images/bg.jpg");
+	background-size: 100%;
+	font-family: comic sans, comic sans ms, cursive, verdana, arial, sans-serif;
+}
+
+.login {
+	margin: 200px 0 0 0;
+	width: 35%;
+	font-size: 20px;
+}
+
+.input {
+	font-size: 16px;
+	height: 22px;
+	background: none;
+	border: 2px solid gray;
+	border-radius: 10px;
+	padding: 1px 10px;
+}
+
+.button{
+border:2px solid white; -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px;width:px;font-size:16px;font-family:comic sans, comic sans ms, cursive, verdana, arial, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block; color: #FFFFFF;
+ background-color: #CEDCE7; background-image: -webkit-gradient(linear, left top, left bottom, from(#CEDCE7), to(#596a72));
+ background-image: -webkit-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: -moz-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: -ms-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: -o-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: linear-gradient(to bottom, #CEDCE7, #596a72);
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#CEDCE7, endColorstr=#596a72);
+ width:120px;
+}
+
+.button:hover{
+ border:2px solid lightgray;
+ width:120px;
+ background-color: #acc4d6; background-image: -webkit-gradient(linear, left top, left bottom, from(#acc4d6), to(#434f55));
+ background-image: -webkit-linear-gradient(top, #acc4d6, #434f55);
+ background-image: -moz-linear-gradient(top, #acc4d6, #434f55);
+ background-image: -ms-linear-gradient(top, #acc4d6, #434f55);
+ background-image: -o-linear-gradient(top, #acc4d6, #434f55);
+ background-image: linear-gradient(to bottom, #acc4d6, #434f55);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#acc4d6, endColorstr=#434f55);
+}
+
+  .btn{
+	  border-radius: 10px;
+	  font-size: 16px;
+	  width: 120px;
+	  height: 35px;
+  }
+
+.error{
+	color:#ff0000;
+}
+#grid{
+	width:60%;
+}
+tr{
+	text-align:center;
+}
